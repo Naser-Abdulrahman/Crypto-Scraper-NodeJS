@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="utf-8" />
+    <title>Crypto Exchange Data</title>
+  </head>
+
+  <body>
+    <label>Exchange</label>
+    <select id="exchange">
+      <option value="binance">Binance</option>
+      <option value="bitstamp">Bitstamp</option>
+      <option value="bittrex">Bittrex</option>
+      <option value="coinbasepro">Coinbase</option>
+      <option value="kraken">Kraken</option>
+    </select>
+    <label>Crypto Currency</label>
+    <select id="crypto_currency">
+      <option value="BTC">Bitcoin</option>
+      <option value="ETH">Etherium</option>
+      <option value="BNB">Binance Coin</option>
+      <option value="XRP">Ripple</option>
+      <option value="USDT">Tether</option>
+      <option value="DOGE">Doge</option>
+      <option value="ADA">Cardano</option>
+      <option value="DOT">Polkadot</option>
+      <option value="UNI">Uniswap</option>
+      <option value="BCH">Bitcoin Cash</option>
+      <option value="LTC">Litecoin</option>
+      <option value="VET">VeChain</option>
+      <option value="XLM">Lumen</option>
+      <option value="THETA">Theta</option>
+      <option value="USDC">US Dollar Coin</option>
+      <option value="FIL">Filecoin</option>
+      <option value="TRX">Tron</option>
+      <option value="SOL">Solana</option>
+      <option value="WBTC">Wrapped Bitcoin</option>
+      <option value="NEO">Neo/Antshares</option>
+      <option value="XMR">Monero</option>
+      <option value="EOS">ESO.IO</option>
+      <option value="BSV">Bitcoin SV</option>
+      <option value="LUNA">Terra</option>
+      <option value="IOTA">mIOTA</option>
+      <option value="CRO">Crypto.org Coin</option>
+      <option value="FTT">FTX token</option>
+      <option value="AAVE">Aave</option>
+      <option value="DASH">Dash</option>
+    </select>
+    <label>Fiat Currency</label>
+    <select id="fiat_currency">
+      <option value="USD">USD</option>
+      <option value="CAD">CAD</option>
+      <option value="EURO" selected="selected">EURO</option>
+      <option value="BRL">BRL</option>
+      <option value="CNY">CNY</option>
+      <option value="JPN">JPN</option>
+      <option value="KRW">KRW</option>
+      <option value="AUD">AUD</option>
+    </select>
+    <br />
+    <br />
+    <table id="myTable" class="table table-striped"></table>
+
+    <h3 id="crypto"></h3>
+    <script src="js/script.js">
+    </script>
+  </body>
+</html>
